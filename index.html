@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Leaflet Web Map</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    
+    <link rel="stylesheet" href="css\styles.css"/>
+   
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0"></script>
+
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.0/mapbox-gl.js"></script>
+</head>
+<body>
+
+    <p>This is a demonstration of the leaflet web map library to create a thematic map using
+        a custom tile set from Mapbox
+    </p>
+
+    <p class="title">Smith River Study Areas and Streams </p>
+    <div class ='map' id="dotmap"></div> <!--creates a div for my map-->
+   
+    <script src="js\scripts.js"></script> <!--links to my js file-->
+
+    <p>
+        I wanted to experiment with a "dark mode" inspired map elements theme. I have
+        chosen a dark background color for the page, as well as styled my popups, legend,
+        and basemap layer selector to map for a cohesive theme. <br/><br/> I wanted the colors 
+        for the geojson layers to be bright enough to separate from the custom mapbox tileset
+        (which had colors chosen from a photo of my study site), but I find they turned out a
+        little too bright and I'm not entirely thrilled with them. <br/><br/> I also tried styling the native
+        leaflet zoom buttons, but couldn't get it to work :(  
+    </p>
+</body>
+</html>

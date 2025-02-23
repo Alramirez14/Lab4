@@ -1,0 +1,79 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.40.2-Bratislava">
+  <identifier>WSR_Gen9_20170815</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>Whole Stream Routes - Generation 9</title>
+  <abstract>This dataset provides a representation of the watercourses within the Oregon portion of the Columbia basin as well as coastal and Great Basin watersheds. A selected subset of streams were originally derived from the Framework hydrography dataset and include all records originally present within the 1:100,000 scale PNW Hydrography dataset, named 1:24,000 scale streams and unnamed 1:24,000 scale streams where ODFW managed aquatic resource information exist. The data were migrated to events on NHD between 2012 and 2014. Whole stream route events were synchronized to April 2017 NHD geometry from April through June 2017.
+
+The primary purpose of this dataset is to map the location of complete streams and rivers and to maintain a unique ID associated with "whole streams". It serves as a template for storing aquatic resource information as linear referenced events and publishing to a human readable format. This dataset is maintained as events on the National Hydrography Dataset (NHD) and is derived from April 2017 NHD geometry.
+
+This dataset is a derivation of the Oregon Hydrography water courses dataset which in turn is a derivation of the Pacific Northwest Framework Hydrography water courses dataset.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>watercourses</keyword>
+    <keyword>Oregon</keyword>
+    <keyword>rivers</keyword>
+    <keyword>inlandWaters</keyword>
+    <keyword>streams</keyword>
+    <keyword>Columbia Basin</keyword>
+    <keyword>hydrography</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>watercourses</keyword>
+    <keyword>rivers</keyword>
+    <keyword>streams</keyword>
+    <keyword>hydrography</keyword>
+    <keyword>inlandWaters</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type>both</type>
+      <address>4034 Fairview Industrial Dr</address>
+      <city>Salem</city>
+      <administrativearea>Oregon</administrativearea>
+      <postalcode>97302</postalcode>
+      <country></country>
+    </contactAddress>
+    <name>Jon Bowers</name>
+    <organization>Oregon Department of Fish and Wildlife</organization>
+    <position>GIS Coordinator</position>
+    <voice>503-947-6097</voice>
+    <fax></fax>
+    <email>jon.k.bowers@state.or.us</email>
+    <role>Point of contact</role>
+  </contact>
+  <links>
+    <link description="" name="" mimeType="" url="https://nrimp.dfw.state.or.us/DataClearinghouse/default.aspx?p=202&amp;XMLname=1124.xml" type="" size="" format=""/>
+  </links>
+  <history>This dataset originated from the 1:100,000 PNW River Reach files which were migrated to the Oregon Hydrography Framework dataset. From there, all other named, 1:24,000 scale Framework streams were added as were other stream features where ODFW had either fish habitat distribution or fish passage barrier information. In 2014, ODFW's mixed scale hydrography dataset was migrated to the NHD and is now referred to as the "Whole Stream Routes" dataset.</history>
+  <history>Data source: PNW Hydrography Framework</history>
+  <history>Data source: National Hydrography Dataset</history>
+  <dates/>
+  <fees></fees>
+  <constraints type="Limitations of use">Care was taken in the creation of these themes, but they are provided "as is". The Oregon Dept. of Fish and Wildlife cannot accept any responsibility for errors, omissions, or positional accuracy in the digital data or underlying records. There are no warranties, expressed or implied, including the warranty of merchantability or fitness for a particular purpose, accompanying any of these products. However, notification of any errors would be appreciated.</constraints>
+  <rights>ODFW, Jon Bowers, Ruth Schellbach, Carl Swanson.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["NAD83 / Oregon GIC Lambert (ft)",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["Oregon GIC Lambert (international foot)",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",41.75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",-120.5,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",43,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",45.5,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",1312335.958,LENGTHUNIT["foot",0.3048],ID["EPSG",8826]],PARAMETER["Northing at false origin",0,LENGTHUNIT["foot",0.3048],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["foot",0.3048]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["foot",0.3048]],USAGE[SCOPE["State-wide spatial data management."],AREA["United States (USA) - Oregon."],BBOX[41.98,-124.6,46.26,-116.47]],ID["EPSG",2992]]</wkt>
+      <proj4>+proj=lcc +lat_0=41.75 +lon_0=-120.5 +lat_1=43 +lat_2=45.5 +x_0=399999.9999984 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs</proj4>
+      <srsid>957</srsid>
+      <srid>2992</srid>
+      <authid>EPSG:2992</authid>
+      <description>NAD83 / Oregon GIC Lambert (ft)</description>
+      <projectionacronym>lcc</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial maxy="46.52720000000000056" crs="EPSG:2992" miny="41.62749999999999773" dimensions="2" maxx="-116.32299999999999329" maxz="0" minx="-124.79970000000000141" minz="0"/>
+    <temporal>
+      <period>
+        <start>2014-11-13T08:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>

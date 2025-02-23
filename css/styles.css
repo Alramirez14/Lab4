@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    flex-direction: column;  /* Stack maps vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center;     /* Center content horizontally */
+    text-align: center;      /* Center titles and text */
+    margin: auto;       /* Full viewport height */
+    background-color: #373847;
+}
+
+p {
+    color: white;
+}
+
+#dotmap {
+    height: 800px; 
+    width: 1200px; 
+    margin: auto;
+}
+
+.title {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.info.legend {
+    background: #373847;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    line-height: 12px;
+    color: white;
+}
+.info.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.8;
+    line-height: 4px;
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+    background-color: #373847;
+    color: 373847;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+.custom-popup .leaflet-popup-content {
+    margin: 0;
+}
+
+.leaflet-control-layers {
+    background-color: #373847;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    color: white;
+}
+
+.leaflet-control-layers-toggle {
+    background-color: #373847; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.leaflet-control-layers-list {
+    padding: 5px;
+}
+
+.leaflet-control-layers-base label,
+.leaflet-control-layers-overlays label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.leaflet-control-layers-selector {
+    margin-right: 5px;
+}
+
+.leaflet-control-zoom {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: #373847; 
+    color: white;
+}
+
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #373847; 
+    color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.leaflet-control-zoom-in {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: none;
+    background-color: #373847; 
+    color: white;
+}
+
+.leaflet-control-zoom-out {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #373847; 
+    color: white;
+}
+
+.leaflet-control-zoom-in:hover,
+.leaflet-control-zoom-out:hover {
+    background-color: #373847; 
+    color: white;
+}
+
+
